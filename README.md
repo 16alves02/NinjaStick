@@ -22,7 +22,7 @@ Follow these steps to play **Ninja Stick**:
 
 Open the index.html file in your web browser.
 
-##How to Play
+## How to Play
 - **Stretch the Stick:**
 
 Click and hold the mouse button to stretch the stick.
@@ -37,11 +37,11 @@ Hit the "perfect" spot in the middle for double points!
 
 If the ninja falls, click the "RESTART" button or press the spacebar to try again.
 
-##Customization
+## Customization
 
 You can modify the appearance of the *Ninja* by editing the styles.css and the script.js file. Customize the colors, fonts, and overall design to fit your preferences.
 
-##Contributing
+## Contributing
 - **Fork the Repository:**
 
 Create a fork of the project repository.
@@ -58,5 +58,5 @@ Implement your changes and commit them.
 
 Send a pull request for review.
 
-##Contact
+# Contact
 For any questions, feedback, or ideas, feel free to contact me, @16alves02. Your feedback is appreciated!
