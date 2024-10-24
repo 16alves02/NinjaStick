@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%; /* Set the height of html and body to 100% of the viewport */
+  margin: 0;    /* Remove default margin */
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Set the font for the body */
+  cursor: pointer; /* Change the cursor to pointer on hover */
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 100%; /* Set the height to 100% of the parent */
+}
+
+#score {
+  position: absolute; /* Position the score absolutely */
+  top: 30px; /* Distance from the top */
+  right: 30px; /* Distance from the right */
+  font-size: 2em; /* Set font size */
+  font-weight: 900; /* Make the font bold */
+}
+
+#introduction {
+  width: 200px; /* Set width of the introduction box */
+  height: 150px; /* Set height of the introduction box */
+  position: absolute; /* Position the introduction box absolutely */
+  font-weight: 600; /* Set font weight */
+  font-size: 0.8em; /* Set font size */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Set font family */
+  text-align: center; /* Center the text */
+  transition: opacity 2s; /* Smooth transition for opacity */
+}
+
+#restart {
+  width: 120px; /* Set width for the restart button */
+  height: 120px; /* Set height for the restart button */
+  border-radius: 50%; /* Make the button circular */
+  color: white; /* Set text color */
+  background-color: orange; /* Set background color */
+  border: none; /* Remove border */
+  font-weight: 700; /* Set font weight */
+  font-size: 1.2em; /* Set font size */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Set font family */
+  display: none; /* Initially hide the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#perfect {
+  position: absolute; /* Position the perfect area absolutely */
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 2s; /* Smooth transition for opacity */
+}
+
+/* Styles for the GitHub link */
+#github {
+    position: absolute;  /* Positioning the GitHub link absolutely within the container */
+    bottom: 10px;        /* Distance from the bottom of the container */
+    left: 10px;          /* Distance from the left */
+    font-size: 14px;     /* Font size for the link */
+    color: #000;         /* Text color */
+    text-decoration: none; /* Remove underline from the text */
+    display: flex;       /* Use flexbox to align the icon and text */
+    align-items: center; /* Center items vertically */
+    z-index: 10;         /* Ensure it appears above other elements */
+}
+  
+#github-logo {
+    width: 20px;         /* Size of the GitHub icon */
+    height: 20px;        /* Height of the GitHub icon */
+    margin-right: 5px;   /* Space between the icon and text */
+}
+  
+#github:hover {
+    color: red;          /* Change the link color on hover */
+}
+  
+/* Styles for the GitHub card */
+#github-card {
+    position: absolute;   /* Position the GitHub card absolutely */
+    bottom: 40px;        /* A bit above the link */
+    left: 10px;          /* Distance from the left */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 5px 10px;   /* Padding inside the card */
+    border-radius: 5px;  /* Rounded corners */
+    font-size: 12px;     /* Font size for the card text */
+    z-index: 10;         /* Ensure it appears above other elements */
+}
+
+/* Ensure the container has a relative position */
+.container {
+    position: relative; /* Set position to relative for child absolute positioning */
+}
